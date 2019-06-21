@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sup01_base" />
         <module name="sup01_mybatis" />
+        <module name="sup03_mybatis_design" />
+        <module name="sup01_base" />
+        <module name="sup02_mybatis_annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itcast_01_base" target="1.5" />
+      <module name="sup02_mybatis_design" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

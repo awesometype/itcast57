@@ -14,7 +14,4 @@ public interface IUserDao {
      * find all
      */
     List<User> findAll();
-
-
-
 }

@@ -11,7 +11,35 @@
     <modules>
         <module>sup01_base</module>
         <module>sup01_mybatis</module>
+        <module>sup02_mybatis_annotation</module>
+        <module>sup03_mybatis_design</module>
     </modules>
 
+    <properties>
+        <jdk.version>11</jdk.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/src/test/resources</directory>
+            </testResource>
+            <testResource>
+                <directory>${project.basedir}/src/main/resources</directory>
+            </testResource>
+        </testResources>
+    </build>
 
 </project>
