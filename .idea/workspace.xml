@@ -2,56 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="463af010-ce0a-4c73-8d82-e7efc45a4e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup01_mybatis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis01/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis1/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis_annotation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis_annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/java/com/wenbronk/mybatis01/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/java/com/wenbronk/mybatis01/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis_annotation/src/test/java/com/wenbronk/mybatis01/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/Select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/config/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/io/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/mapper/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/proxy/MapperProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/Excutors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/XMLConfigBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/com/wenbronk/mybatis3/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/mybatis/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/Business.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis1_base/入门.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis2_crud/CRUD+like" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis2_crud/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis2_crud/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis3_daoImpl/dao.impl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis3_daoImpl/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis3_daoImpl/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis3_daoImpl/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis3_daoImpl/mapper/impl/UserMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis4_dema/dao/IUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis4_dema/domain/IUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis4_dema/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis4_dema/动态sql语句" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/com/wenbronk/mybatis2_crud/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/com/wenbronk/mybatis3_daoImpl/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/com/wenbronk/mybatis4_dema/mapper/mybatis4_auto.IUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/test/java/com/wenbronk/mybatis2_crud/CRUD/MybatisCRUDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/test/java/com/wenbronk/mybatis3_daoImpl/test/MybatisImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/test/java/com/wenbronk/mybatis4_dema/test/DemanicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/com/wenbronk/mybatis04/one2many/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/test/java/com/wenbronk/mybatis04/one2many/test/AccountMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/test/java/com/wenbronk/mybatis04/one2many/test/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis05/many2many/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/test/java/com/wenbronk/mybatis05/many2many/test/RoleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/test/java/com/wenbronk/mybatis05/many2many/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sup02_mybatis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis01/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis01/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis01/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis01/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/d:axis.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis01/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis1_base/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis01/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis2_crud/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis01/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/com/wenbronk/mybatis1_base/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis01/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/test/java/com/wenbronk/mybatis1_base/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis1/test/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/sup01_mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/META-INF/sup01_mybatis.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/com/wenbronk/mybatis01/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/com/wenbronk/mybatis01/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/com/wenbronk/mybatis01/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/com/wenbronk/mybatis1/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/com/wenbronk/mybatis1/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/com/wenbronk/mybatis1/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/test-classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/test-classes/com/wenbronk/mybatis01/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/test-classes/com/wenbronk/mybatis01/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/test-classes/com/wenbronk/mybatis1/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/test-classes/com/wenbronk/mybatis1/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup01_mybatis/target/test-classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/d:axis.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/java/com/wenbronk/mybatis01/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/java/com/wenbronk/mybatis01/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis1_base/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/src/test/java/com/wenbronk/mybatis01/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/test/java/com/wenbronk/mybatis01/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/classes/com/wenbronk/mybatis01/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/classes/com/wenbronk/mybatis01/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/test-classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/test-classes/com/wenbronk/mybatis01/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup02_mybatis_annotation/target/test-classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/io/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/io/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/mapper/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/proxy/MapperProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/proxy/MapperProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/Excutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/utils/Excutors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/utils/XMLConfigBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/com/wenbronk/mybatis3/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/resources/com/wenbronk/mybatis3/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/mybatis/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/test/java/com/wenbronk/mybatis3/test/mybatis/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/test/java/com/wenbronk/mybatis3/test/proxy/Business.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/test/java/com/wenbronk/mybatis3/test/proxy/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/Select.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/config/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/io/Resources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/mapper/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/proxy/MapperProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/sqlsession/SqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/sqlsession/SqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/sqlsession/SqlSessionFactoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/utils/Excutors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/com/wenbronk/mybatis3/utils/XMLConfigBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/com/wenbronk/mybatis3/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/com/wenbronk/mybatis3/test/mybatis/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/com/wenbronk/mybatis3/test/proxy/Business.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/com/wenbronk/mybatis3/test/proxy/BusinessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/com/wenbronk/mybatis3/test/proxy/BusinessImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/com/wenbronk/mybatis3/test/proxy/ProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/schema.sql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,6 +165,12 @@
     <ignored path="$PROJECT_DIR$/sup02_mybatis_annotation/target/" />
     <ignored path="$PROJECT_DIR$/sup02_mybatis_design/target/" />
     <ignored path="$PROJECT_DIR$/sup03_mybatis_design/target/" />
+    <ignored path="$PROJECT_DIR$/sup02_mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/sup02_mybatis/mybatis01/target/" />
+    <ignored path="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/" />
+    <ignored path="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/" />
+    <ignored path="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/" />
+    <ignored path="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +188,16 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DDL data source" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -86,68 +205,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/resources/SqlMapConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis1/test/MybatisTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="30" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/XMLConfigBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1950">
-              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/mapper/Mapper.java">
+        <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/test/java/com/wenbronk/mybatis01/MybatisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="372">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,13 +222,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Kotlin File" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mybatis2_crud</find>
+      <find>pooledconnection</find>
+      <find>popconnection</find>
+      <find>cmmit</find>
+      <find>commit</find>
+      <find>execut</find>
+      <find>name</find>
+      <find>select * from user</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>mybatis3_daoImpl</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -172,52 +252,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sup01_base/pom.xml" />
-        <option value="$PROJECT_DIR$/sup01_base/src/main/java/com/wenbronk/sup01/array/converse/ArrayConverse.java" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis01/domain/User.java" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis01/dao/IUserDao.xml" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis01/test/MybatisTest.java" />
-        <option value="$PROJECT_DIR$/sup02_mybatis_annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis01/dao/IUserDao.java" />
-        <option value="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/resources/SqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/sup02_mybatis_annotation/src/main/java/com/wenbronk/mybatis01/dao/IUserDao.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/README.md" />
-        <option value="$PROJECT_DIR$/sup02_mybatis_annotation/README.md" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/README.md" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/io/Resources.java" />
-        <option value="$PROJECT_DIR$/sup02_mybatis_annotation/src/test/java/com/wenbronk/mybatis01/test/MybatisTest.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactory.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/mapper/Mapper.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSession.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSessionFactory.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/Business.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessImpl.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessHandler.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/Excutors.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactoryBuilder.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/mybatis/MybatisTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/config/Configuration.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/pom.xml" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/proxy/MapperProxy.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/com/wenbronk/mybatis3/dao/IUserDao.xml" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/Select.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/SqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/XMLConfigBuilder.java" />
-        <option value="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/dao/IUserDao.java" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis01/User.java" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1/mapper/UserMapper.xml.fxml" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1/mapper/UserMapper.fxml" />
         <option value="$PROJECT_DIR$/sup01_mybatis/src/main/resources/SqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/dao/User.java" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis1/test/MybatisTest.java" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis2_crud/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis4_dema/dao/IUserMapper.java" />
+        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis4_dema/domain/QueryVo.java" />
+        <option value="$PROJECT_DIR$/sup01_mybatis/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console.sql" />
+        <option value="$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis4_dema/test/DemanicTest.java" />
+        <option value="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis4_dema/mapper/mybatis4_auto.IUserMapper.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis01/README.md" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console_2.sql" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console_3.sql" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/domain/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/domain/Account.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console_4.sql" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/test/java/com/wenbronk/mybatis04/one2many/test/AccountMapperTest.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/domain/User.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/pom.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/domain/UserMapper.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis04/many2many/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/mapper/UserMapper.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console_5.sql" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis01/pom.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/pom.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.tld" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/domain/Role.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/test/java/com/wenbronk/mybatis05/many2many/test/UserTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console_6.sql" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis05/many2many/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/domain/User.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/test/java/com/wenbronk/mybatis05/many2many/test/RoleTest.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessHandler.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/com/wenbronk/mybatis04/one2many/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/test/java/com/wenbronk/mybatis04/one2many/test/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis01/domain/User.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis01/mapper/IUserDao.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/mapper/IUserDao.java" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/test/java/com/wenbronk/mybatis01/MybatisTest.java" />
       </list>
     </option>
   </component>
@@ -231,8 +316,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="834" />
-    <option name="height" value="1050" />
+    <option name="y" value="178" />
+    <option name="width" value="1343" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -242,7 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,122 +338,111 @@
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlsession" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
-              <item name="sup03_mybatis_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis3" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
+              <item name="sup02_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02.annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -377,8 +451,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -387,25 +463,29 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/com/wenbronk/mybatis3/dao" />
+      <recent name="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis05/many2many/mapper" />
+      <recent name="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis4_dema/mapper" />
+      <recent name="$PROJECT_DIR$/sup01_mybatis/src/main/resources" />
+      <recent name="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis3_daoImpl/mapper" />
+      <recent name="$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1_base/dao" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wenbronk.mybatis3.mapper" />
-      <recent name="com.wenbronk.mybatis3.sqlsession" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources" />
+      <recent name="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis04/many2many/mapper" />
+      <recent name="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources" />
+      <recent name="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources" />
+      <recent name="$PROJECT_DIR$/sup02_mybatis/mybatis03.design" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wenbronk.mybatis3.test.mybatis" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sup03_mybatis_design/src/main/resources" />
-      <recent name="$PROJECT_DIR$/sup03_mybatis_design/target/test-classes" />
-      <recent name="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3" />
-      <recent name="$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils" />
-      <recent name="$PROJECT_DIR$/sup02_mybatis_annotation/src/test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wenbronk.mybatis3.mapper" />
+      <recent name="com.wenbronk.mybatis3.sqlsession" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -420,10 +500,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testHelloWorld (3)">
+  <component name="RunManager" selected="JUnit.MybatisTest.test">
     <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis3.test.proxy.ProxyTest" />
-      <module name="sup03_mybatis_design" />
+      <module name="mybatis03.design" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wenbronk.mybatis3.test.proxy.*" />
@@ -434,65 +514,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testHelloWorld (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sup02_mybatis_annotation" />
+    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis02.annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wenbronk.mybatis01.test.*" />
+          <option name="PATTERN" value="com.wenbronk.mybatis01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wenbronk.mybatis01.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis01.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="PACKAGE_NAME" value="com.wenbronk.mybatis01" />
+      <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis01.MybatisTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testHelloWorld (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sup03_mybatis_design" />
+    <configuration name="RoleTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis05.many2many" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wenbronk.mybatis3.test.mybatis.*" />
+          <option name="PATTERN" value="com.wenbronk.mybatis05.many2many.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wenbronk.mybatis3.test.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis3.test.mybatis.MybatisTest" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="PACKAGE_NAME" value="com.wenbronk.mybatis05.many2many.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis05.many2many.test.RoleTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testHelloWorld (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sup01_mybatis" />
+    <configuration name="UserMapperTest.testFirstLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis04.onetomany" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wenbronk.mybatis1.test.*" />
+          <option name="PATTERN" value="com.wenbronk.mybatis04.one2many.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wenbronk.mybatis1.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis1.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="PACKAGE_NAME" value="com.wenbronk.mybatis04.one2many.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis04.one2many.test.UserMapperTest" />
+      <option name="METHOD_NAME" value="testFirstLevelCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sup01_mybatis" />
+    <configuration name="UserMapperTest.testOne2Many" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis04.onetomany" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wenbronk.mybatis01.test.*" />
+          <option name="PATTERN" value="com.wenbronk.mybatis04.one2many.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wenbronk.mybatis01.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis01.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="PACKAGE_NAME" value="com.wenbronk.mybatis04.one2many.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wenbronk.mybatis04.one2many.test.UserMapperTest" />
+      <option name="METHOD_NAME" value="testOne2Many" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -500,11 +580,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testHelloWorld (3)" />
-        <item itemvalue="JUnit.MybatisTest.testHelloWorld (2)" />
-        <item itemvalue="JUnit.MybatisTest.testHelloWorld (1)" />
+        <item itemvalue="JUnit.MybatisTest.test" />
+        <item itemvalue="JUnit.UserMapperTest.testFirstLevelCache" />
+        <item itemvalue="JUnit.UserMapperTest.testOne2Many" />
         <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="JUnit.MybatisTest.testHelloWorld" />
+        <item itemvalue="JUnit.RoleTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -522,51 +602,53 @@
       <workItem from="1560990815868" duration="98000" />
       <workItem from="1561028279042" duration="7806000" />
       <workItem from="1561077250588" duration="2088000" />
-      <workItem from="1561102547542" duration="10573000" />
+      <workItem from="1561102547542" duration="39503000" />
+      <workItem from="1561254580245" duration="11350000" />
+      <workItem from="1561342827764" duration="7858000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybatisTest_testHelloWorld_(2) - 2019.06.21 at 20h 03m 30s.xml">
-      <configuration name="MybatisTest.testHelloWorld (2)" configurationId="JUnit" />
+    <history-entry file="UserTest_test - 2019.06.23 at 22h 05m 58s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(2) - 2019.06.21 at 20h 05m 11s.xml">
-      <configuration name="MybatisTest.testHelloWorld (2)" configurationId="JUnit" />
+    <history-entry file="UserTest_test - 2019.06.23 at 22h 06m 41s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(2) - 2019.06.21 at 20h 06m 07s.xml">
-      <configuration name="MybatisTest.testHelloWorld (2)" configurationId="JUnit" />
+    <history-entry file="UserTest_test - 2019.06.23 at 22h 09m 18s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(2) - 2019.06.21 at 20h 08m 57s.xml">
-      <configuration name="MybatisTest.testHelloWorld (2)" configurationId="JUnit" />
+    <history-entry file="RoleTest_testFindAll - 2019.06.23 at 22h 12m 21s.xml">
+      <configuration name="RoleTest.testFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(2) - 2019.06.21 at 20h 09m 24s.xml">
-      <configuration name="MybatisTest.testHelloWorld (2)" configurationId="JUnit" />
+    <history-entry file="RoleTest_testFindAll - 2019.06.23 at 22h 12m 46s.xml">
+      <configuration name="RoleTest.testFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(3) - 2019.06.21 at 20h 23m 03s.xml">
-      <configuration name="MybatisTest.testHelloWorld (3)" configurationId="JUnit" />
+    <history-entry file="RoleTest_testFindAll - 2019.06.23 at 22h 13m 54s.xml">
+      <configuration name="RoleTest.testFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(3) - 2019.06.21 at 20h 23m 43s.xml">
-      <configuration name="MybatisTest.testHelloWorld (3)" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testOne2Many - 2019.06.24 at 21h 27m 30s.xml">
+      <configuration name="UserMapperTest.testOne2Many" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(3) - 2019.06.21 at 20h 24m 03s.xml">
-      <configuration name="MybatisTest.testHelloWorld (3)" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testFirstLevelCache - 2019.06.24 at 21h 35m 39s.xml">
+      <configuration name="UserMapperTest.testFirstLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(3) - 2019.06.21 at 20h 25m 05s.xml">
-      <configuration name="MybatisTest.testHelloWorld (3)" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testFirstLevelCache - 2019.06.24 at 21h 35m 59s.xml">
+      <configuration name="UserMapperTest.testFirstLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testHelloWorld_(3) - 2019.06.21 at 20h 26m 10s.xml">
-      <configuration name="MybatisTest.testHelloWorld (3)" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testFirstLevelCache - 2019.06.24 at 21h 36m 31s.xml">
+      <configuration name="UserMapperTest.testFirstLevelCache" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24471000" />
+    <option name="totallyTimeSpent" value="72609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21062271" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49183673" visible="true" weight="0.24725275" />
+      <window_info id="Structure" order="1" sideWeight="0.5081633" side_tool="true" weight="0.21062271" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -574,30 +656,66 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34387755" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.327551" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.37244898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4010204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31530613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32040817" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32959184" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.41326532" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.22222222" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49183673" visible="true" weight="0.21062271" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5081633" side_tool="true" visible="true" weight="0.21062271" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.35408163" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.37244898" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.30612245" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.31530613" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32959184" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32959184" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -611,187 +729,141 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis3_daoImpl/test/MybatisImplTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/executor/statement/PreparedStatementHandler.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactory.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="197">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup02_mybatis_annotation/src/main/java/com/wenbronk/mybatis01/dao/IUserDao.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/resources/com/wenbronk/mybatis4_dema/mapper/mybatis4_auto.IUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/soft/jdk/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
-          <folding>
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2107#2108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/executor/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/session/SqlSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="115" column="36" lean-forward="true" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="40" />
-          <folding>
-            <element signature="e#4110#4111#0" expanded="true" />
-            <element signature="e#4158#4159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/session/SqlSessionFactory.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis01/src/main/java/com/wenbronk/mybatis4_dema/domain/IUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/domain/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="96" column="28" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/soft/jdk/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="993" column="25" selection-start-line="993" selection-start-column="25" selection-end-line="993" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/Business.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="92">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/proxy/ProxyTest.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/soft/jdk/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.desktop/java/beans/PropertyDescriptor.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console_4.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="352" column="29" selection-start-line="352" selection-start-column="29" selection-end-line="352" selection-end-column="29" />
+        <state relative-caret-position="138">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/Excutors.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/test/java/com/wenbronk/mybatis04/one2many/test/AccountMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state relative-caret-position="263">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSessionFactory.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="299">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/SqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="644">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup02_mybatis_annotation/src/test/java/com/wenbronk/mybatis01/test/MybatisTest.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="261">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSessionFactoryBuilder.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="768">
+          <caret line="38" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -800,260 +872,293 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="143" column="21" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/soft/jdk/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.desktop/java/beans/NameGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/target/test-classes/com/wenbronk/mybatis3/dao/IUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/Select.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/com/wenbronk/mybatis3/dao/IUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/test/java/com/wenbronk/mybatis3/test/mybatis/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/proxy/MapperProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis01/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/resources/com.wenbronk.mybatis1.mapper.UserMapper.kt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1/mapper/UserMapper.xml.fxml">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis03.design/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console_5.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="69" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis01/test/MybatisTest.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa0250db-b311-4cef-96b0-2d459d22a4b2/console_6.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/test/java/com/wenbronk/mybatis05/many2many/test/RoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="322">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/resources/SqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/java/com/wenbronk/mybatis05/many2many/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis01/dao/IUserDao.xml">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/com/wenbronk/mybatis05/many2many/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/proxy/MapperProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/test/java/com/wenbronk/mybatis3/test/proxy/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="12" column="141" selection-start-line="12" selection-start-column="141" selection-end-line="12" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/test/java/com/wenbronk/mybatis3/test/proxy/BusinessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/sqlsession/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/soft/jdk/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="216" column="29" selection-start-line="216" selection-start-column="29" selection-end-line="216" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/soft/jdk/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.sql/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/datasource/unpooled/UnpooledDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928">
+          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/datasource/pooled/PoolState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/java/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/resources/com/wenbronk/mybatis1/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/main/java/com/wenbronk/mybatis1/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/main/resources/com/wenbronk/mybatis04/one2many/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="161">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/test/java/com/wenbronk/mybatis05/many2many/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/config/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup01_mybatis/src/test/java/com/wenbronk/mybatis1/test/MybatisTest.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/src/main/resources/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="30" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/utils/XMLConfigBuilder.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1950">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="253">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sup03_mybatis_design/src/main/java/com/wenbronk/mybatis3/mapper/Mapper.java">
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis03.design/src/main/java/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="552">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/src/test/java/com/wenbronk/mybatis04/one2many/test/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="43" />
           <folding>
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/datasource/pooled/PooledDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="410" column="64" selection-start-line="410" selection-start-column="64" selection-end-line="410" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/test/java/com/wenbronk/mybatis01/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,28 @@
+package com.wenbronk.mybatis2_crud.mapper;
+
+
+import com.wenbronk.mybatis2_crud.domain.QueryVo;
+import com.wenbronk.mybatis2_crud.domain.User;
+
+import java.util.List;
+
+/**
+ * @Author wenbronk
+ * @Date 2019-06-21
+ */
+public interface UserMapper {
+
+    List<User> findAll();
+
+    void insert(User user);
+
+    void update(User user);
+
+    void delete(int i);
+
+    User findById(int i);
+
+    List<User> findByLike(String name);
+
+    List<User> findByQueryVo(QueryVo queryVo);
+}

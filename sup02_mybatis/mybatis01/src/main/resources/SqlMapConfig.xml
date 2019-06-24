@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE configuration
+                PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!--mybatis的主配置文件-->
+<configuration >
+
+    <!-- 引用db.properties配置文件 -->
+    <properties resource="jdbc.properties"/>
+
+
+    <settings>
+        <setting name="cacheEnabled" value="true"/>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="multipleResultSetsEnabled" value="true"/>
+        <setting name="useColumnLabel" value="true"/>
+        <setting name="useGeneratedKeys" value="false"/>
+        <setting name="autoMappingBehavior" value="PARTIAL"/>
+        <setting name="autoMappingUnknownColumnBehavior" value="WARNING"/>
+        <setting name="defaultExecutorType" value="SIMPLE"/>
+        <setting name="defaultStatementTimeout" value="30"/>
+        <setting name="defaultFetchSize" value="200"/>
+        <setting name="safeRowBoundsEnabled" value="false"/>
+        <setting name="mapUnderscoreToCamelCase" value="false"/>
+        <setting name="localCacheScope" value="SESSION"/>
+        <setting name="jdbcTypeForNull" value="OTHER"/>
+        <setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString"/>
+    </settings>
+
+    <typeAliases>
+<!--        <typeAlias type="com.wenbronk.mybatis2_crud.domain.User" alias="user" />-->
+<!--        <package name="com.wenbronk.mybatis2_crud.domain"/>-->
+        <package name="com.wenbronk.mybatis4_dema.domain"/>
+    </typeAliases>
+
+<!--    配置环境-->
+    <environments default="mysql">
+<!--        配置mysql环境-->
+        <environment id="mysql">
+<!--            配置事务类型-->
+            <transactionManager type="JDBC"></transactionManager>
+<!--            数据源-->
+            <dataSource type="POOLED">
+<!--                数据库连接信息-->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+<!--    指定映射配置文件的位置-->
+    <mappers>
+<!--        <mapper resource="com/wenbronk/mybatis1_base/dao/IUserDao.xml" />-->
+<!--        <mapper resource="com/wenbronk/mybatis2_crud/mapper/UserMapper.xml" />-->
+<!--        <mapper resource="com/wenbronk/mybatis3_daoImpl/mapper/UserMapper.xml" />-->
+        <mapper resource="com/wenbronk/mybatis4_dema/mapper/mybatis4_auto.IUserMapper.xml"/>
+    </mappers>
+
+</configuration>

@@ -10,14 +10,21 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>sup01_base</module>
-        <module>sup01_mybatis</module>
-        <module>sup02_mybatis_annotation</module>
-        <module>sup03_mybatis_design</module>
+        <module>sup02_mybatis</module>
     </modules>
 
     <properties>
         <jdk.version>11</jdk.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.0-jre</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

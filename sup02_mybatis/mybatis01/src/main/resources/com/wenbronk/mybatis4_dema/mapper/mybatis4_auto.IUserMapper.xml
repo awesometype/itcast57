@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wenbronk.mybatis4_dema.dao.IUserMapper">
+
+    <resultMap id="userMap" type="iUser" autoMapping="true">
+        <id property="uId" column="id"/>
+        <result property="uName" column="name"/>
+        <result property="uAddress" column="address"/>
+        <result property="uSex" column="sex"/>
+        <result property="uBirthday" column="birthday"/>
+    </resultMap>
+
+    <sql id="defaultSelect">
+        select * from user
+    </sql>
+
+    <select id="findEveryThhing" parameterType="iuser" resultMap="userMap">
+        <include refid="defaultSelect"></include>
+        <where>
+            <if test="uName != null">
+                and username like concat(concat('%', #{uName}), '%')
+            </if>
+            <if test="uSex != null">
+                and sex = #{uSex}
+            </if>
+        </where>
+    </select>
+
+    <select id="findByIn" parameterType="queryVo" resultMap="userMap">
+        <include refid="defaultSelect"></include>
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="and id in (" close=")" item="userId" separator="," >
+                    #{userId}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>
