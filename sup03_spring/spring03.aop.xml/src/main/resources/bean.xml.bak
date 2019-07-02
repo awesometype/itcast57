@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!-- 使用动态代理实现事务控制 -->
+    <bean id = "beanFactory" class="com.wenbronk.spring03.aop.transactionProxy.factory.BeanFactory">
+        <property name="accountService" ref="accountService2"/>
+        <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+
+    <bean id = "accountServiceProxy" factory-bean="beanFactory" factory-method="getProxy">
+    </bean>
+
+    <bean id = "accountService2" class="com.wenbronk.spring03.aop.transactionProxy.service.AccountService">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+
+    <bean id = "accountService" class="com.wenbronk.spring03.aop.transactionManager.service.AccountService">
+        <property name="accountDao" ref="accountDao"/>
+        <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+
+    <bean id = "accountDao" class="com.wenbronk.spring03.aop.transactionManager.dao.AccountDao">
+        <property name="connectionUtils" ref="connectionUtils"/>
+        <property name="queryRunner" ref="runner"/>
+    </bean>
+
+    <bean id = "transactionManager" class="com.wenbronk.spring03.aop.transactionManager.transaction.TransactionManager">
+        <property name="connectionUtils" ref="connectionUtils"/>
+    </bean>
+
+    <bean id = "connectionUtils" class="com.wenbronk.spring03.aop.transactionManager.transaction.ConnectionUtils">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--配置QueryRunner-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype"></bean>
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <!--连接数据库的必备信息-->
+        <property name="driverClassName" value="${jdbc.driver}"></property>
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+
+</beans>

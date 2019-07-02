@@ -10,8 +10,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.IOException;
 import java.io.InputStream;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -25,12 +25,60 @@ public class MybatisTest {
     private UserMapper mapper;
 
     @Test
-    public void test() {
+    public void testFindAll() {
         List<User> users = mapper.findAll();
         users.forEach(user -> {
             System.out.println(user);
         });
     }
+
+    @Test
+    public void testFindOne() {
+        User byId = mapper.findById(48);
+        System.out.println(byId);
+    }
+
+    @Test
+    public void testInsrt() {
+        User user = new User();
+        user.setUsername("wenbronk");
+        user.setAddress("bj");
+        user.setSex("男");
+        user.setBirthday(new Date());
+        mapper.saveUser(user);
+        session.commit();
+    }
+
+    @Test
+    public void testUpdate() {
+        User user = new User();
+        user.setId(58);
+        user.setUsername("updateuser");
+        user.setSex("F");
+        mapper.update(user);
+        session.commit();
+    }
+
+    @Test
+    public void testDelete() {
+        User user = new User();
+        user.setUsername("updateuser");
+        mapper.delete(user);
+        session.commit();
+    }
+
+    @Test
+    public void testLike() {
+        List<User> users = mapper.findByName("王");
+        users.forEach(System.out::println);
+    }
+
+    @Test
+    public void testSelectTotal() {
+        int i = mapper.selectTotal();
+        System.out.println(i);
+    }
+
 
     @Before
     public void before() throws Exception {
@@ -45,6 +93,4 @@ public class MybatisTest {
         stream.close();
         session.close();
     }
-
-
 }

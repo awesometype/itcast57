@@ -1,0 +1,68 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+<!--    第二种方式，使用其他工厂的方法进行创建-->
+<!--    <bean id = "myFactory" class="com.wenbronk.factory.MyFactory"/>-->
+<!--    <bean id = "accountService" factory-bean="myFactory" factory-method="getServiceImpl" ></bean>-->
+
+<!--    第三种方式， 使用静态方法获取-->
+<!--    <bean id = "accuntService" class="com.wenbronk.factory.MyFactory" factory-method="getServiceImpl"/>-->
+
+    <!--    第一种方式， 默认构造函数-->
+    <bean name="accountService" class="com.wenbronk.spring.ioc.service.impl.AccountServiceImpl" >
+        <property name="accountDao" ref="accountDao" />
+    </bean>
+
+<!--    作用范围， scope-->
+    <bean name="accountDao" class="com.wenbronk.spring.ioc.dao.impl.AccountDaoImpl" scope="prototype">
+        <constructor-arg name="name" value="vini"/>
+        <constructor-arg name="age" value="18"/>
+        <constructor-arg name="birthday" ref = "birthday"/>
+        <property name="collectionInject" ref="collectionInject"/>
+    </bean>
+
+    <bean id="birthday" class="java.util.Date"/>
+
+    <bean name="collectionInject" class="com.wenbronk.spring.ioc.service.impl.CollectionInject">
+        <property name="myStr" >
+            <array>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </array>
+        </property>
+        <property name="lists" >
+            <list>
+                <value>DDD</value>
+                <value>FFF</value>
+                <value>EEE</value>
+            </list>
+        </property>
+        <property name="sets">
+            <set>
+                <value>III</value>
+                <value>OOO</value>
+                <value>JJJ</value>
+            </set>
+        </property>
+        <property name="myMap">
+            <map>
+                <entry key="hello" value="ooo"/>
+                <entry key="gdg">
+                    <value>ppp</value>
+                </entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="ccc">lll</prop>
+                <prop key="eee">qqq</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
