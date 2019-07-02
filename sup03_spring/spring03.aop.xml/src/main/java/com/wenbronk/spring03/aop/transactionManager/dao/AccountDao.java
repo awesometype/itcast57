@@ -1,7 +1,7 @@
-package com.wenbronk.spring03.aop.xml.dao;
+package com.wenbronk.spring03.aop.transactionManager.dao;
 
-import com.wenbronk.spring03.aop.xml.domain.Account;
-import com.wenbronk.spring03.aop.xml.transaction.ConnectionUtils;
+import com.wenbronk.spring03.aop.transactionManager.domain.Account;
+import com.wenbronk.spring03.aop.transactionManager.transaction.ConnectionUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
@@ -48,7 +48,7 @@ public class AccountDao {
      */
     public void updateAccount(Account targetAccount) {
         try {
-            queryRunner.update(connectionUtils.getThreadConnection(), "update account set money = ? where id = ? ", targetAccount.getMoney(), targetAccount.getName());
+            queryRunner.update(connectionUtils.getThreadConnection(), "update account set money = ? where id = ? ", targetAccount.getMoney(), targetAccount.getId());
         } catch (SQLException e) {
             e.printStackTrace();
         }

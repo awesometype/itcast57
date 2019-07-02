@@ -1,4 +1,4 @@
-package com.wenbronk.spring03.aop.xml.domain;
+package com.wenbronk.spring03.aop.transactionManager.domain;
 
 /**
  * @Author wenbronk

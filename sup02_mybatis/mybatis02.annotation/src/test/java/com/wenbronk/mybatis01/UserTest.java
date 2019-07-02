@@ -18,7 +18,7 @@ import java.util.List;
  * @Author wenbronk
  * @Date 2019-06-20
  */
-public class MybatisTest {
+public class UserTest {
 
     private InputStream stream;
     private SqlSession session;
@@ -38,23 +38,27 @@ public class MybatisTest {
         System.out.println(byId);
     }
 
+    /**
+     * 可返回id的插入
+     */
     @Test
     public void testInsrt() {
         User user = new User();
-        user.setUsername("wenbronk");
-        user.setAddress("bj");
-        user.setSex("男");
-        user.setBirthday(new Date());
-        mapper.saveUser(user);
+        user.setuName("wenbronk");
+        user.setuAddress("bj");
+        user.setuSex("男");
+        user.setuBirthday(new Date());
+        int id = mapper.saveUser(user);
         session.commit();
+        System.out.println(user);
     }
 
     @Test
     public void testUpdate() {
         User user = new User();
-        user.setId(58);
-        user.setUsername("updateuser");
-        user.setSex("F");
+        user.setuId(58);
+        user.setuName("updateuser");
+        user.setuSex("F");
         mapper.update(user);
         session.commit();
     }
@@ -62,7 +66,7 @@ public class MybatisTest {
     @Test
     public void testDelete() {
         User user = new User();
-        user.setUsername("updateuser");
+        user.setuName("updateuser");
         mapper.delete(user);
         session.commit();
     }
@@ -79,6 +83,15 @@ public class MybatisTest {
         System.out.println(i);
     }
 
+    @Test
+    public void findUserAndAccount() {
+        List<User> userAndAccount = mapper.findUserAndAccount();
+        userAndAccount.forEach(user -> {
+            System.out.println();
+            System.out.println(user);
+            user.getAccounts().forEach(System.out::println);
+        });
+    }
 
     @Before
     public void before() throws Exception {

@@ -11,6 +11,7 @@
     <modules>
         <module>sup01_base</module>
         <module>sup02_mybatis</module>
+        <module>sup03_spring</module>
     </modules>
 
     <properties>
@@ -22,7 +23,6 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>28.0-jre</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 

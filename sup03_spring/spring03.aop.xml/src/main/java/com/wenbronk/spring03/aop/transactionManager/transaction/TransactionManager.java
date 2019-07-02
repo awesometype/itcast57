@@ -1,4 +1,4 @@
-package com.wenbronk.spring03.aop.xml.transaction;
+package com.wenbronk.spring03.aop.transactionManager.transaction;
 
 import java.sql.SQLException;
 
@@ -57,5 +57,4 @@ public class TransactionManager {
             e.printStackTrace();
         }
     }
-
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/util
+        https://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.wenbronk.spring03.aop.xml"/>
+
+    <bean id = "accountService" class="com.wenbronk.spring03.aop.xml.service.impl.AccountServiceImpl"/>
+    <!-- aop -->
+    <bean id = "logger" class="com.wenbronk.spring03.aop.xml.utils.Logger"/>
+    <!-- 使用 澳盘：config 表示开始aop配置-->
+    <aop:config>
+        <aop:pointcut id="servicePointCut"
+                      expression="execution(* com.wenbronk.spring03.aop.xml.service.impl.AccountServiceImpl.*(..))"/>
+<!--         aop:aspect 表示开始切面-->
+        <aop:aspect id = "beforeAdvice" ref = "logger">
+            <aop:before method="beforePointCut" pointcut-ref="servicePointCut"/>
+            <aop:after-returning method="afterReturningPointCut" pointcut-ref="servicePointCut"/>
+            <aop:after-throwing method="afterThrowingPointCut" pointcut-ref="servicePointCut"/>
+            <aop:after method="afterPrintLog" pointcut-ref="servicePointCut"/>
+        </aop:aspect>
+
+        <aop:aspect id="arountAspect" ref="logger">
+            <aop:around method="arount" pointcut-ref="servicePointCut"/>
+        </aop:aspect>
+    </aop:config>
+
+</beans>

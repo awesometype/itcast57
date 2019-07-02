@@ -1,8 +1,8 @@
-package com.wenbronk.spring03.aop.transactionManager.factory;
+package com.wenbronk.spring03.aop.transactionProxy.factory;
 
-import com.wenbronk.spring03.aop.transactionManager.domain.Account;
-import com.wenbronk.spring03.aop.transactionManager.service.AccountService;
+
 import com.wenbronk.spring03.aop.transactionManager.transaction.TransactionManager;
+import com.wenbronk.spring03.aop.transactionProxy.service.AccountService;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
@@ -43,5 +43,4 @@ public class BeanFactory {
         });
         return service;
     }
-
 }

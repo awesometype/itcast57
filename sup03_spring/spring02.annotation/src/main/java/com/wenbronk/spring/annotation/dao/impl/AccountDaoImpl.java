@@ -1,44 +1,28 @@
-package com.wenbronk.spring.ioc.dao.impl;
+package com.wenbronk.spring.annotation.dao.impl;
 
-import com.wenbronk.spring.ioc.dao.AccountDao;
-import com.wenbronk.spring.ioc.service.impl.CollectionInject;
+import com.wenbronk.spring.annotation.dao.AccountDao;
+import com.wenbronk.spring.annotation.domain.User;
+import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
-import javax.sound.midi.Soundbank;
-import java.util.*;
+import java.sql.SQLException;
+import java.util.List;
 
 /**
  * @Author wenbronk
  * @Date 2019-06-25
  */
+@Repository
 public class AccountDaoImpl implements AccountDao {
 
-    private String name;
-    private Integer age;
-    private Date birthday;
-    private CollectionInject collectionInject;
-
-    public AccountDaoImpl(String name, Integer age, Date birthday) {
-        this.name = name;
-        this.age = age;
-        this.birthday = birthday;
-    }
-
-    public CollectionInject getCollectionInject() {
-        return collectionInject;
-    }
-
-    public void setCollectionInject(CollectionInject collectionInject) {
-        this.collectionInject = collectionInject;
-    }
+    @Autowired
+    private QueryRunner queryRunner;
 
     @Override
-    public String find() {
-        System.out.println(Arrays.toString(collectionInject.getMyStr()));
-        System.out.println(collectionInject.getLists());
-        System.out.println(collectionInject.getSets());
-        System.out.println(collectionInject.getMyMap());
-        System.out.println(collectionInject.getProperties());
-
-        return this.name + ": " + this.age + ": " + this.birthday;
+    public List<User> find() throws SQLException {
+        List<User> userList = queryRunner.query("select * from user", new BeanListHandler<User>(User.class));
+        return userList;
     }
 }

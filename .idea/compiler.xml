@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis02.annotation" />
-        <module name="mybatis03.design" />
-        <module name="mybatis05.many2many" />
-        <module name="mybatis01" />
         <module name="sup01_base" />
         <module name="mybatis04.onetomany" />
+        <module name="spring02.annotation" />
+        <module name="mybatis05.many2many" />
+        <module name="spring03.aop.xml" />
+        <module name="spring04.aop.annotation" />
+        <module name="mybatis01" />
+        <module name="mybatis03.design" />
+        <module name="spring01_ioc_di" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -1,4 +1,4 @@
-package com.wenbronk.spring03.aop.xml;
+package com.wenbronk.spring03.aop.transactionManager;
 
 /**
  * @Author wenbronk

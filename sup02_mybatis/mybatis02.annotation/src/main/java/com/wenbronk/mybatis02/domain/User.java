@@ -2,6 +2,7 @@ package com.wenbronk.mybatis02.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @Author wenbronk
@@ -9,60 +10,71 @@ import java.util.Date;
  */
 public class User implements Serializable {
 
-    private Integer id;
-    private String username;
-    private Date birthday;
-    private String sex;
-    private String address;
+    private Integer uId;
+    private String uName;
+    private Date uBirthday;
+    private String uSex;
+    private String uAddress;
+
+    private List<Account> accounts;
+
+    public List<Account> getAccounts() {
+        return accounts;
+    }
+
+    public void setAccounts(List<Account> accounts) {
+        this.accounts = accounts;
+    }
+
+    public Integer getuId() {
+        return uId;
+    }
+
+    public void setuId(Integer uId) {
+        this.uId = uId;
+    }
+
+    public String getuName() {
+        return uName;
+    }
+
+    public void setuName(String uName) {
+        this.uName = uName;
+    }
+
+    public Date getuBirthday() {
+        return uBirthday;
+    }
+
+    public void setuBirthday(Date uBirthday) {
+        this.uBirthday = uBirthday;
+    }
+
+    public String getuSex() {
+        return uSex;
+    }
+
+    public void setuSex(String uSex) {
+        this.uSex = uSex;
+    }
+
+    public String getuAddress() {
+        return uAddress;
+    }
+
+    public void setuAddress(String uAddress) {
+        this.uAddress = uAddress;
+    }
 
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", birthday=" + birthday +
-                ", sex='" + sex + '\'' +
-                ", address='" + address + '\'' +
+                "uId=" + uId +
+                ", uName='" + uName + '\'' +
+                ", uBirthday=" + uBirthday +
+                ", uSex='" + uSex + '\'' +
+                ", uAddress='" + uAddress + '\'' +
+                ", accounts=" + accounts +
                 '}';
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 }

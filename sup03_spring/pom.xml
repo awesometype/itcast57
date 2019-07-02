@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>sup03_spring</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring01_ioc_di</module>
+        <module>spring02.annotation</module>
+        <module>spring03.aop.xml</module>
+        <module>spring04.aop.annotation</module>
+    </modules>
 
 
 </project>

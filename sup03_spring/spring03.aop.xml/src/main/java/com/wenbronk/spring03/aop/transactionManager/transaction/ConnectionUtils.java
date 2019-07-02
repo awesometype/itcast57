@@ -1,6 +1,7 @@
-package com.wenbronk.spring03.aop.xml.transaction;
+package com.wenbronk.spring03.aop.transactionManager.transaction;
 
 import javax.sql.DataSource;
+import java.awt.*;
 import java.sql.Connection;
 
 /**
@@ -9,10 +10,14 @@ import java.sql.Connection;
  */
 public class ConnectionUtils {
 
-    private static final ThreadLocal<Connection> connections = new ThreadLocal<>();
+    private static ThreadLocal<Connection> connections;
     private DataSource dataSource;
     public void setDataSource(DataSource dataSource) {
         this.dataSource = dataSource;
+    }
+
+    static {
+        connections = new ThreadLocal<>();
     }
 
     public Connection getThreadConnection() {
@@ -24,9 +29,9 @@ public class ConnectionUtils {
             }
         }catch (Exception e) {
             e.printStackTrace();
-        }finally {
-            return connection;
         }
+
+        return connection;
     }
 
     public void remove() {

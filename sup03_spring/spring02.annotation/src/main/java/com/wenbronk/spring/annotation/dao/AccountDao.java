@@ -1,5 +1,10 @@
-package com.wenbronk.spring.ioc.dao;
+package com.wenbronk.spring.annotation.dao;
+
+import com.wenbronk.spring.annotation.domain.User;
+
+import java.sql.SQLException;
+import java.util.List;
 
 public interface AccountDao {
-    String find();
+    List<User> find() throws SQLException;
 }
