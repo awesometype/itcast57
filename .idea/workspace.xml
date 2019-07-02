@@ -1,154 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="463af010-ce0a-4c73-8d82-e7efc45a4e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sup01_base/src/test/java/com/wenbronk/sup01/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/test/java/com/wenbronk/mybatis01/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/main/java/com/wenbronk/factory/MyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/main/java/com/wenbronk/spring/ioc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/main/java/com/wenbronk/spring/ioc/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/main/java/com/wenbronk/spring/ioc/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/main/java/com/wenbronk/spring/ioc/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/main/java/com/wenbronk/spring/ioc/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/main/java/com/wenbronk/spring/ioc/service/impl/CollectionInject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/config/ConfigMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/config/JDBCConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/dao/impl/AccountDaoImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/service/impl/CollectionInject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/test/java/com/wenbronk/spring/annotation/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/test/java/com/wenbronk/spring/annotation/test/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/cglib/CglibClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/cglib/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/proxy/IProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/proxy/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionManager/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionManager/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionManager/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionManager/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionManager/transaction/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionManager/transaction/TransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionManager/通过手写事务的方式进行管理" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionProxy/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionProxy/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionProxy/代理的方式实现事务管理" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/xml/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/xml/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/xml/utils/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/resources/bean.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/resources/beanXml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/resources/shema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/test/java/com/wenbronk/spring03/aop/transactionProxy/TestTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/test/java/com/wenbronk/spring03/aop/transactoinManager/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/test/java/com/wenbronk/spring03/aop/xml/XmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/java/com/wenbronk/spring03/aop/anno/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/java/com/wenbronk/spring03/aop/anno/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/java/com/wenbronk/spring03/aop/anno/utils/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/test/java/com/wenbronk/spring03/aop/anno/test/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup01_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sup01_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/d:axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/d:axis.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/main/java/com/wenbronk/mybatis02/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/test/java/com/wenbronk/mybatis01/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/src/test/java/com/wenbronk/mybatis01/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/classes/META-INF/mybatis02.annotation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/classes/com/wenbronk/mybatis02/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/classes/com/wenbronk/mybatis02/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/test-classes/META-INF/mybatis02.annotation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/test-classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/test-classes/com/wenbronk/mybatis01/MybatisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/test-classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/test-classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis02.annotation/target/test-classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/Select.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/config/Configuration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/dao/IUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/dao/IUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/io/Resources.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/mapper/Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/proxy/MapperProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/sqlsession/SqlSession.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/sqlsession/SqlSessionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/sqlsession/SqlSessionFactoryBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSession.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/sqlsession/impl/DefaultSqlSessionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/utils/Excutors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/com/wenbronk/mybatis3/utils/XMLConfigBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/com/wenbronk/mybatis3/dao/IUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/com/wenbronk/mybatis3/test/mybatis/MybatisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/com/wenbronk/mybatis3/test/proxy/Business.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/com/wenbronk/mybatis3/test/proxy/BusinessHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/com/wenbronk/mybatis3/test/proxy/BusinessImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/com/wenbronk/mybatis3/test/proxy/ProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis03.design/target/test-classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/com/wenbronk/mybatis04/one2many/domain/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/com/wenbronk/mybatis04/one2many/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/com/wenbronk/mybatis04/one2many/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/com/wenbronk/mybatis04/one2many/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/test-classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/test-classes/com/wenbronk/mybatis04/one2many/mapper/AccountMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/test-classes/com/wenbronk/mybatis04/one2many/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/test-classes/com/wenbronk/mybatis04/one2many/test/AccountMapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/test-classes/com/wenbronk/mybatis04/one2many/test/UserMapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/test-classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/test-classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis04.onetomany/target/test-classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/com/wenbronk/mybatis05/many2many/domain/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/com/wenbronk/mybatis05/many2many/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/com/wenbronk/mybatis05/many2many/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/com/wenbronk/mybatis05/many2many/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/test-classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/test-classes/com/wenbronk/mybatis05/many2many/mapper/RoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/test-classes/com/wenbronk/mybatis05/many2many/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/test-classes/com/wenbronk/mybatis05/many2many/test/RoleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/test-classes/com/wenbronk/mybatis05/many2many/test/UserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/test-classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/test-classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup02_mybatis/mybatis05.many2many/target/test-classes/schema.sql" beforeDir="false" />
-    </list>
+    <list default="true" id="463af010-ce0a-4c73-8d82-e7efc45a4e32" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/itcast_01_base/target/" />
@@ -219,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/java/com/wenbronk/spring03/aop/anno/utils/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#497#498#0" expanded="true" />
@@ -235,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sup03_spring/spring03.aop.xml/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+            <state relative-caret-position="521">
+              <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -248,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/java/com/wenbronk/spring03/aop/anno/service/impl/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -307,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/dao/impl/AccountDaoImpl.java" />
         <option value="$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/test/java/com/wenbronk/test/SeleniumTest.java" />
         <option value="$PROJECT_DIR$/sup03_spring/spring01_ioc_di/src/test/java/com/wenbronk/test/HelloTest.java" />
@@ -358,6 +219,7 @@
         <option value="$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/resources/beanXml.xml" />
         <option value="$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/java/com/wenbronk/spring03/aop/anno/utils/Logger.java" />
         <option value="$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/resources/bean.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -410,6 +272,40 @@
               <item name="itcast57" type="462c0819:PsiDirectoryNode" />
               <item name="sup03_spring" type="462c0819:PsiDirectoryNode" />
               <item name="spring03.aop.xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
+              <item name="sup03_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring03.aop.xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
+              <item name="sup03_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring03.aop.xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
+              <item name="sup03_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring03.aop.xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast57" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast57" type="462c0819:PsiDirectoryNode" />
+              <item name="sup03_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring03.aop.xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -588,8 +484,16 @@
       <workItem from="1561941324068" duration="380000" />
       <workItem from="1561979336458" duration="3912000" />
       <workItem from="1562028021166" duration="6000" />
-      <workItem from="1562068444052" duration="5284000" />
+      <workItem from="1562068444052" duration="5551000" />
     </task>
+    <task id="LOCAL-00001" summary="merge">
+      <created>1562075763910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562075763910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -625,11 +529,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127813000" />
+    <option name="totallyTimeSpent" value="128080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49183673" visible="true" weight="0.2826618" />
       <window_info id="Structure" order="1" sideWeight="0.5081633" side_tool="true" weight="0.21062271" />
@@ -647,7 +550,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32040817" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32040817" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -705,6 +608,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -751,16 +658,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sup03_spring/spring02.annotation/src/main/java/com/wenbronk/spring/annotation/dao/impl/AccountDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sup03_spring/spring03.aop.xml/src/main/java/com/wenbronk/spring03/aop/transactionManager/通过手写事务的方式进行管理">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1119,7 +1016,7 @@
     <entry file="file://$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/java/com/wenbronk/spring03/aop/anno/service/impl/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1129,7 +1026,7 @@
     <entry file="file://$PROJECT_DIR$/sup03_spring/spring04.aop.annotation/src/main/java/com/wenbronk/spring03/aop/anno/utils/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
@@ -1146,8 +1043,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sup03_spring/spring03.aop.xml/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        <state relative-caret-position="521">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
