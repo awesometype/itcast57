@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        https://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/util
+        https://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    导入配置-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+<!--    注解支持-->
+    <context:component-scan base-package="com.wenbronk.spring03.aop.springTrans"/>
+
+    <bean id="stService" class="com.wenbronk.spring03.aop.springTrans.service.impl.STServiceImpl">
+        <property name="accountDao" ref="stDao"/>
+    </bean>
+
+    <bean id="stDao" class="com.wenbronk.spring03.aop.springTrans.dao.impl.STDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <!--连接数据库的必备信息-->
+        <property name="driverClassName" value="${jdbc.driver}"></property>
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+
+<!--    事务支持-->
+    <tx:annotation-driven transaction-manager="transatcionManager"/>
+
+    <!--配置声明式事务管理器-->
+    <bean id="transatcionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!--    配置事务通知-->
+    <tx:advice id="txAdvice" transaction-manager="transatcionManager">
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED" read-only="false"/>
+            <tx:method name="find*" propagation="SUPPORTS" read-only="true"></tx:method>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--    配置aop-->
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(* com.wenbronk.spring03.aop.springTrans.service.impl.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt1"/>
+    </aop:config>
+
+</beans>

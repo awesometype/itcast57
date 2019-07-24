@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @Date 2019-06-29
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath:bean.xml.bak"})
+@ContextConfiguration(locations = {"classpath:beanProxyTransaction.xml"})
 public class TestMain {
 
     @Autowired

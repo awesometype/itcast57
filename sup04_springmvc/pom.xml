@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>itcast57</artifactId>
+        <groupId>com.wenbronk</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>sup04_springmvc</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springmvc01.start</module>
+        <module>springmvc02.resp</module>
+        <module>springmvc03.fileupload</module>
+        <module>springmvc03.fileserver</module>
+        <module>springmvc04.interceptor</module>
+        <module>springmvc05.exception</module>
+    </modules>
+
+</project>

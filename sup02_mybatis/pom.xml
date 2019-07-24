@@ -12,7 +12,7 @@
     <artifactId>sup02_mybatis</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>mybatis01</module>
+        <module>mybatis01.start</module>
         <module>mybatis02.annotation</module>
         <module>mybatis03.design</module>
         <module>mybatis04.onetomany</module>

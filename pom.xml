@@ -12,6 +12,8 @@
         <module>sup01_base</module>
         <module>sup02_mybatis</module>
         <module>sup03_spring</module>
+        <module>sup04_springmvc</module>
+        <module>sup05.ssm</module>
     </modules>
 
     <properties>

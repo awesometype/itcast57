@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
-    <artifactId>sup02_mybatis_annotation</artifactId>
+    <artifactId>mybatis02.annotation</artifactId>
 
     <dependencies>
         <dependency>
