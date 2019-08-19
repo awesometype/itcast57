@@ -8,6 +8,7 @@ import org.springframework.context.annotation.*;
 import javax.sql.DataSource;
 
 /**
+ * @Configuration 作为主配置文件被传入工厂时， 可以省略
  * @Author wenbronk
  * @Date 2019-06-25
  */
@@ -15,6 +16,7 @@ import javax.sql.DataSource;
         @ComponentScan(basePackages = {"com.wenbronk.spring.annotation"})
 })
 @Import(JDBCConfig.class)
+//@Configuration
 public class ConfigMain {
 
     @Bean

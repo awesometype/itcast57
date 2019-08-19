@@ -169,3 +169,14 @@ CREATE TABLE role_permission
     FOREIGN KEY (permissionId) REFERENCES permission (id),
     FOREIGN KEY (roleId) REFERENCES role (id)
 );
+
+-- log
+CREATE TABLE sysLog(
+    id VARCHAR(64) default SYS_GUID() PRIMARY KEY,
+    visitTime date,
+    username VARCHAR(64),
+    ip VARCHAR(64),
+    url VARCHAR(128),
+    executionTime int,
+    method VARCHAR(256)
+)

@@ -1,5 +1,7 @@
 package com.wenbronk.sup01.array.converse;
 
+import java.util.Arrays;
+
 /**
  * 数组元素反转， 其实就是对称位置的元素交换
  * 1. 什么时候停止交换
@@ -15,7 +17,7 @@ public class ArrayConverse {
             array[j] = array[i] ^ array[j];
             array[j] = array[i] ^ array[j];
         }
-
+        System.out.println(Arrays.toString(array));
     }
 
 }

@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -22,13 +23,16 @@ public class OrderController {
     private OrderService orderService;
 
     @RequestMapping("/findAll")
-    public String findAll(int page, int size, Model model) {
+    public ModelAndView findAll(Integer page, Integer size) {
         List<Orders> orderList = orderService.findAll(page, size);
 
         // 分页插件
         PageInfo<Orders> pageInfo = new PageInfo<>(orderList);
-        model.addAttribute("pageInfo", pageInfo);
-        return "orders-page-list";
+
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("pageInfo", pageInfo);
+        modelAndView.setViewName("orders-page-list");
+        return modelAndView;
     }
 
     @RequestMapping("/findById")

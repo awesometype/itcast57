@@ -45,6 +45,11 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
+    <!--切面日志类注入request-->
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+
     <!--pringmvc的核心servlet-->
     <servlet>
         <servlet-name>spring.servlet</servlet-name>
@@ -61,6 +66,11 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <error-page>
+        <error-code>403</error-code>
+        <location>/403.jsp</location>
+    </error-page>
+    
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
         <welcome-file>index.htm</welcome-file>

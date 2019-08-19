@@ -5,10 +5,12 @@ import com.wenbronk.ssm02.domain.UserInfo;
 import com.wenbronk.ssm02.service.RoleService;
 import com.wenbronk.ssm02.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.security.RolesAllowed;
 import java.util.List;
@@ -29,19 +31,24 @@ public class UserController {
 
     @RequestMapping("/findAll")
     @RolesAllowed({"USER", "ADMIN"})
-    public String findAll(Model model) {
+    public ModelAndView findAll() {
         List<UserInfo> userInfos = userService.findAll();
-        model.addAttribute("userList", userInfos);
-        return "user-list";
+
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("userList", userInfos);
+        modelAndView.setViewName("user-list");
+        return modelAndView;
     }
 
     @RequestMapping("save")
+    @PreAuthorize("authentication.principal.username == 'wenbronk'")
     public String save(UserInfo userInfo) {
         userService.save(userInfo);
         return "redirect:findAll";
     }
 
     @RequestMapping("/findById")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public String findById(String id) {
         // TODO
         return "user-show1";

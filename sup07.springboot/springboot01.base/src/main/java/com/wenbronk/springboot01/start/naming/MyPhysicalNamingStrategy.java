@@ -1,4 +1,4 @@
-package com.wenbronk.jpa01.naming;
+package com.wenbronk.springboot01.start.naming;
 
 import org.hibernate.boot.model.naming.Identifier;
 import org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl;

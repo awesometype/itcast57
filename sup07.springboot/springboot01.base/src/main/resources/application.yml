@@ -1,0 +1,42 @@
+
+# 配置普通值
+text: abc
+
+# 配置对象
+person:
+  name: vini
+  age: 18
+
+  # list
+  addr:
+    - beijing
+    - shanghai
+  city: [beijing,tianjin,shanghai,chongqing]
+
+  # map
+  student:
+      name: zhangsan
+      age: 18
+      score: 100
+
+  parent: [{name: wanger, age: 20}, {name: zhaoliu, age: 21}]
+
+
+spring:
+  datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/springdata_jpa
+#    driver-class-name: net.sf.log4jdbc.DriverSpy
+#    url: jdbc:log4jdbc:mysql://localhost:3306/springdata_jpa
+    username: root
+    password: a75767626
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: com.wenbronk.springboot01.start.naming.MyPhysicalNamingStrategy

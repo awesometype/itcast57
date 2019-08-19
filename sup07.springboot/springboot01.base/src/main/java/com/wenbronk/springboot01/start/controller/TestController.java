@@ -1,5 +1,8 @@
-package com.wenbronk.springboot01.start;
+package com.wenbronk.springboot01.start.controller;
 
+import com.wenbronk.springboot01.start.config.PropertiesConfig;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,9 +14,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+    @Value("${person.name}")
+    private String name;
+
+    @Autowired
+    private PropertiesConfig propertiesConfig;
+
     @RequestMapping("/sayHello")
     public String sayHello() {
-        return "hello";
+        System.out.println(name);
+        propertiesConfig.printPersion();
+        return "hello every one, i am ";
     }
-
 }

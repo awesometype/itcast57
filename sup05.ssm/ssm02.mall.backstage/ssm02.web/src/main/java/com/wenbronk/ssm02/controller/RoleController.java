@@ -5,10 +5,12 @@ import com.wenbronk.ssm02.domain.Role;
 import com.wenbronk.ssm02.service.PermissionService;
 import com.wenbronk.ssm02.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -27,10 +29,14 @@ public class RoleController {
     private PermissionService permissionService;
 
     @RequestMapping("/findAll")
-    public String findAll(Model model) {
+    @Secured("ROLE_ADMIND")
+    public ModelAndView findAll() {
         List<Role> roleList = roleService.findAll();
-        model.addAttribute("roleList", roleList);
-        return "role-list";
+
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("roleList", roleList);
+        modelAndView.setViewName("role-list");
+        return modelAndView;
     }
 
     @RequestMapping("/save")

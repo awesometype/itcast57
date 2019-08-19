@@ -29,4 +29,9 @@ public class ServiceTest {
         }
     }
 
+    @Test
+    public void testHelloWorld() {
+        System.out.println("hello world");
+    }
+
 }
