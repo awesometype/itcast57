@@ -1,0 +1,25 @@
+package com.wenbronk.framework.domain.media.response;
+
+import com.wenbronk.framework.domain.media.MediaFile;
+import com.wenbronk.framework.model.response.ResponseResult;
+import com.wenbronk.framework.model.response.ResultCode;
+import com.wenbronk.framework.domain.media.MediaVideoCourse;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+/**
+ * Created by admin on 2018/3/5.
+ */
+@Data
+@ToString
+@NoArgsConstructor
+public class MediaCourseResult extends ResponseResult {
+    public MediaCourseResult(ResultCode resultCode, MediaVideoCourse mediaVideoCourse) {
+        super(resultCode);
+        this.mediaVideoCourse = mediaVideoCourse;
+    }
+
+    MediaFile mediaVideo;
+    MediaVideoCourse mediaVideoCourse;
+}
