@@ -18,6 +18,7 @@
         <module>sup07.springboot</module>
         <module>sup08.vue</module>
         <module>sup09.xc-cms</module>
+        <module>sup10.activiti</module>
     </modules>
 
     <properties>

@@ -1,0 +1,36 @@
+server:
+  port: 31000
+spring:
+  application:
+    name: xc‐service‐manage‐cms‐client
+  data:
+    mongodb:
+      uri:  mongodb://xczx:1234@localhost:27017
+      database: xc_cms
+      authentication-database: admin
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: vhost_rabbitmq
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/xczx_jpa
+    #    driver-class-name: net.sf.log4jdbc.DriverSpy
+    #    url: jdbc:log4jdbc:mysql://localhost:13306/xczx_jpa
+    username: root
+    password: a75767626
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+xc:
+  mq:
+#cms客户端监控的队列名称（不同的客户端监控的队列不能重复）
+    queue: queue_cms_postpage_01
+    routingKey: 5a751fab6abb5044e0d19ea1 #此routingKey为门户站点ID

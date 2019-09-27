@@ -6,13 +6,13 @@
 <mapper namespace="com.wenbronk.mybatis05.many2many.mapper.UserMapper">
 
     <resultMap id="selectUserMap" type="user">
-        <id property="id" column="id" />
+        <id property="id" column="id"/>
         <result property="username" column="username"/>
         <result property="address" column="address"/>
         <result property="sex" column="sex"/>
         <result property="birthday" column="birthday"/>
 
-        <collection property="roles" ofType="role" >
+        <collection property="roles" ofType="role">
             <id property="id" column="rid"/>
             <result property="roleName" column="ROLE_NAME"/>
             <result property="roleDesc" column="ROLE_DESC"/>
@@ -22,10 +22,10 @@
     <select id="findAll" resultMap="selectUserMap">
         select u.*, r.id as rid, r.ROLE_NAME, r.ROLE_DESC
         from user as u
-        left join user_role as ur
-            on u.id = ur.UID
-        left join role as r
-            on r.id = ur.RID
+                 left join user_role as ur
+                           on u.id = ur.UID
+                 left join role as r
+                           on r.id = ur.RID
     </select>
 
 </mapper>

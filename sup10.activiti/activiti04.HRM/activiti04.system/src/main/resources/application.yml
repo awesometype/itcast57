@@ -1,0 +1,25 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: hrm-system #指定服务名
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/saas_hrm?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: a75767626
+  jpa:
+    database: MySQL
+    open-in-view: true
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        dialect: org.hibernate.dialect.MySQL57Dialect #不加这句则默认为myisam引
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL57Dialect  #不加这句则默认为myisam引
+jwt:
+  config:
+    key: signiningningingingi
+    ttl: 360000

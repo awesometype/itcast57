@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>itcast57</artifactId>
+        <groupId>com.wenbronk</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>sup10.activiti</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>activiti01.simple</module>
+        <module>activiti02.spring</module>
+        <module>activiti03.springboot</module>
+        <module>activiti04.HRM</module>
+        <module>shiro01.start</module>
+        <module>shiro02.springboot</module>
+        <module>activiti10.learn</module>
+    </modules>
+
+    <properties>
+        <springboot.version>2.1.7.RELEASE</springboot.version>
+        <activiti.version>7.1.0.M3.1</activiti.version>
+    </properties>
+
+<!--    <dependencyManagement>-->
+
+<!--        <dependencies>-->
+
+<!--            <dependency>-->
+<!--                &lt;!&ndash; Import dependency management from Spring Boot &ndash;&gt;-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-dependencies</artifactId>-->
+<!--                <version>${springboot.version}</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
+
+<!--            &lt;!&ndash;        activiti cloud&ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>org.activiti.cloud.dependencies</groupId>-->
+<!--                <artifactId>activiti-cloud-dependencies</artifactId>-->
+<!--                <version>${activiti.version}}</version>-->
+<!--                <scope>import</scope>-->
+<!--                <type>pom</type>-->
+<!--            </dependency>-->
+
+<!--&lt;!&ndash;            activiti core &ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>org.activiti.dependencies</groupId>-->
+<!--                <artifactId>activiti-dependencies</artifactId>-->
+<!--                <version>7.1.0.M3.1</version>-->
+<!--                <scope>import</scope>-->
+<!--                <type>pom</type>-->
+<!--            </dependency>-->
+<!--        </dependencies>-->
+<!--    </dependencyManagement>-->
+
+</project>

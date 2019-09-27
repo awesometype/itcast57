@@ -1,0 +1,23 @@
+{
+  "id": "5a791725dd573c3574ee333f", "name": "轮播图",
+  "model": [
+    {
+      "key": "banner1",
+      "name": "轮播图1地址",
+      "url": null,
+      "mapValue": null,
+      "value": "http://www.xuecheng.com/img/widget‐bannerB.jpg"
+    }, {
+      "key": "banner2",
+      "name": "轮播图2地址",
+      "url": null,
+      "mapValue": null,
+      "value": "http://www.xuecheng.com/img/widget‐bannerA.jpg"
+    }, {
+      "key": "banner3",
+      "name": "轮播图3地址",
+      "url": null,
+      "mapValue": null,
+      "value": "http://www.xuecheng.com/img/widget‐banner3.jpg"
+    } ]
+}

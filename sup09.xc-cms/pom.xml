@@ -17,6 +17,10 @@
         <module>xc-framework-model</module>
         <module>xc-service-api</module>
         <module>xc-servicemanager-cms</module>
+        <module>xc-learn</module>
+        <module>xc-servicemanager-cms-client</module>
+        <module>xc-framework-repository</module>
+        <module>xc-servicemanager-course</module>
     </modules>
 
     <properties>
@@ -26,7 +30,8 @@
         <spring.version>5.1.9.RELEASE</spring.version>
         <mybatis-spring-boot.version>2.1.0</mybatis-spring-boot.version>
         <druid.version>1.1.6</druid.version>
-        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
+<!--        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>-->
+        <mysql-connector-java.version>5.1.48</mysql-connector-java.version>
 
         <commons-io.version>2.6</commons-io.version>
         <org.apache.commons.io.version>1.3.2</org.apache.commons.io.version>
@@ -34,7 +39,7 @@
         <commons-codec.version>1.10</commons-codec.version>
         <commons-lang3.version>3.6</commons-lang3.version>
         <okhttp.version>3.9.1</okhttp.version>
-        <feign-okhttp.version>8.18.0</feign-okhttp.version>
+        <feign-okhttp.version>8.17.0</feign-okhttp.version>
         <lombok.version>1.16.16</lombok.version>
         <springfox-swagger.version>2.7.0</springfox-swagger.version>
         <fastjson.version>1.2.30</fastjson.version>
@@ -77,7 +82,7 @@
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
-                <version>1.2.4</version>
+                <version>1.2.10</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -95,6 +100,7 @@
                 <artifactId>feign-okhttp</artifactId>
                 <version>${feign-okhttp.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
@@ -167,15 +173,15 @@
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
-            <!-- &lt;!&ndash; 资源文件拷贝插件 &ndash;&gt;
+             <!-- 资源文件拷贝插件 -->
              <plugin>
                  <groupId>org.apache.maven.plugins</groupId>
                  <artifactId>maven-resources-plugin</artifactId>
                  <configuration>
                      <encoding>UTF-8</encoding>
                  </configuration>
-             </plugin>-->
-            <!-- java编译插件 -->
+             </plugin>
+            <!-- java编译插件-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
